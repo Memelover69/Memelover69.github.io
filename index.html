@@ -1,0 +1,2335 @@
+<!DOCTYPE html>
+<html>
+<!--If you are here to do the break for the script it goes like this:
+Hi my name is<br>
+Austin<br>
+I'm bored<br>
+You could also do Hi my name is<br> Austin<br> I'm bored<br>
+If you need an in depth tutorial, I suggest googling it. Good luck!
+-->
+<head>
+<title>MLP script~</title>
+<link rel="icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+</head>
+<body>
+<center><h1 class="title">My little pony script!<br>"SCREECH""</h1></center>
+<center><p class="script">
+Chorus: My Little Pony, My Little Pony,
+All in a twinkling spring is here!
+My Little Pony, My Little Pony,
+When did all the leaves and grass appear?
+Where there were snowdrifts, now there are no drifts,
+Nor is the sky overcast!
+My Little Pony, My Little Pony,
+Winter is over at last!
+
+My Little Pony, My Little Pony,
+Frisking about as spring unfolds!
+My Little Pony, My Little Pony,
+Breathing in the scent of marigolds!
+Greeting the bluebirds, welcoming new birds,
+Romping through meadow and wood!
+My Little Pony, My Little Pony,
+Winter is over for good!
+
+*Pan to the Baby Bonnet School of Dance. Spike is playing the piano. Baby Lickety-Split does a fancy dance move.*
+
+Sp: Where’d you learn that?
+
+BLS: I made it up!
+
+Sp: Well, you better unmake it, quick!
+
+BLS (disappointed): You didn’t like it?
+
+Sp: Well, it’s great, Lickety-Split, but if you do that during the show, you’ll mess up everyone else! You’re not the star, you know.
+
+BLS: I can do whatever I want! Besides, maybe someday I will be a star!
+
+Sp: I hope so! Just don’t do that step. Okay?
+
+BLS: Play it again, Spike.
+
+*Spike resumes playing.*
+
+Chorus: Everyone's very festive and merry,
+Everything's going full swing!
+My Little Pony, My Little Pony,
+Aren't you happy it's spring?
+Aren't you happy it's spring?
+
+*Cut to a chipmunk holding a dart as it eyes some balloons tied to a tree. Magic Star stands beside him.*
+
+MS: C’mon, Chippy, let ‘er rip!
+
+*The chipmunk throws the dart and a balloon pops.*
+
+*Cut to a shot of a volcano with a ramshackle house on it. *
+
+*The sound of laughter fills the air as the camera pans in on the ramshackle house perched precariously on a volcano.*
+
+*Cut to interior. The laughter comes from Reeka and Draggle, two witches.*
+
+R (laughing): I love it when the wolf tries to eat Little Red!
+
+D: Me too! But she always gets away.
+
+R: Ah, but maybe this time she won’t! (shouting at D) Turn the page!
+
+D: You turn it! I turned the last one!
+
+R: But I’m eating!
+
+D: Oh, you’re always eating!
+
+*Cut to scene of another witch, Hydia scrying in a pool.*
+
+H: Reeka! Draggle! Get up here!
+
+*Reeka and Draggle run up to the scrying room.*
+
+H: Look at all the little ponies, playing games, having fun! It makes me sick!
+
+R: Ew! That pie looks awful!
+
+D: Move! I can’t see!
+
+*Draggle pushes Reeka out of the way.*
+
+R: Don’t push!
+
+*Reeka and Draggle fight, accidentally running into Hydia.*
+
+H: Knock it off!
+
+*They continue fighting.*
+
+H: Knock it off!
+
+D: Yes, Mama.
+
+H (angry): What did you call me?
+
+D: I’m sorry, Hydia! I . . . I didn’t mean to call you Mama!
+
+R: Yes she did!
+
+D: I did not!
+
+R: Did too!
+
+H: Shut up! It’s time you do-nothings did something!
+
+D: Uh . . . I pulled the wings off a fly last week!
+
+R: I fried a worm!
+
+H: Bah! That’s small time stuff! I’m talking about something big!
+
+R: I-I-I could fry two worms!
+
+H: It’s a pity your grandmother isn’t around--she’d show you evil! Your grandfather wasn’t so nice either! Those were the good old days . . . when everything around here was dark and dank and dreary . . . Before the little ponies came along and made everything bright and colorful! Blech! I can’t stand it anymore!
+
+*Hydia nearly knocks Draggle into the volcano, but Draggle pulls herself to safety. Hydia goes back inside and her daughters follow.*
+
+H: It’s time to do something about it! Time for the two of you to start living up to the family tradition! Time to start being evil and mean!
+
+D: But we are mean!
+
+R: A-a-and we are evil!
+
+H: Not evil enough!
+
+*Hydia presses a button which opens a drawbridge (which catches Draggle and Reeka under the chin. They enter.*
+
+*Song*
+
+H: Why can’t you be evil like I taught you?
+Why won’t you misbehave the way you should?
+You never use the guillotine I bought you!
+You’re just not bad enough for your own good!
+
+Try to be as mean as Aunt Eureka!
+She fed her victims till they almost burst,
+Then cooked them with a smidgen of paprika!
+She always did her best to do her worst!
+
+We’re witches, and witches are evil!
+How many times have you been told
+Your great-grandma Alexis
+Crushed a kingdom with her hexes,
+And that’s the proud tradition I want you to uphold!
+
+Try to be as evil as your cousin;
+Lucretia was the cruelest in the crowd!
+She cooked up evil potions by the dozens!
+Be just like her and make your mama proud!
+
+We’re witches, wizards, and warlocks!
+We’re the reason honest people purchase door locks!
+We turn princes into frogs, peasants into pheasants, soldiers and sailors into swine!
+We’re never accused of being angels, but as for being devils, we’re divine!
+Ohhhh!
+
+All our clan was evil and malicious,
+And that is how I want my girls to be!
+Work hard at being malicious, and if you’re real ambitious,
+You might wind up an evil witch like me!
+A terrible, detestable, horrible, despicable, evil mean old witch . . .
+Like me!
+
+*End of the song.* H: Start with the Little Ponies and their stupid festival!
+
+D: What’ll we do with it?
+
+H: Ruin it!
+
+*Cut to the Baby Bonnet School of Dance. Ponies and forest creatures sit on logs as they wait for the performance to start. *
+
+*Buttons trots onto the stage.*
+
+B: Hello everyone! I’m Buttons, and welcome to the Spring Festival! To open our show, and performing together for the very first time anywhere, the Baby Pony Dancers! Let’s hear it for them!
+
+*The various animals and ponies clap and cheer as the Baby Pony Dancers come out.*
+
+*As Babies Lofty, Ribbon, Gusty, Sundance, and Shady dance the number, Baby Lickety-Split comes out in the "Flashprance" outfit and begins doing wild moves. She knocks over the other dancers. The crowd laughs wildly.*
+
+B: Bring down the curtain!
+
+*The curtain comes down and the Baby Pony Dancers gather backstage.*
+
+B (to BLS): Look what you’ve done! Look what you’re wearing! You spoiled the whole number!
+
+BLS: I’m sorry.
+
+BSun: Show-off!
+
+BL: Hotdog!
+
+BLS: I thought my steps were better. I didn’t mean to spoil everything!
+
+B: Well, you did! Everyone was counting on you! Oh, Lickety-Split, how could you be so selfish?
+
+*BLS runs out crying and Spike runs after her.*
+
+Sp: You can’t do this! Running away isn’t the answer!
+
+*Song*
+
+*During this song, Baby Lickety-Split runs to the Lullabye Nursery and begins packing a bag so she can run away.* BLS: Why do they always have to tell me I’m wrong?
+Why must they make me feel I just don’t belong?
+If they don’t like the way I sing my own song,
+I’ll go it alone!
+I’ll go it alone!
+
+How come the word I hear most often is "no"?
+The way I’m treated, I feel lower than low!
+It’s very clear that I’m not wanted here, so
+I’ll go it alone!
+I’ll go it alone!
+
+Sp: I know that you’re upset,
+But don’t run off just yet!
+You can’t take the world on single-handed!
+What if you should end up lost? Or stranded?
+
+BLS: Better that than being reprimanded!
+
+No matter what I do I can’t seem to please;
+What do they want? Should I go down on my knees?
+If all they know to do is holler and tease
+I’ll go it alone!
+I’ll go it alone!
+
+Why must they criticize whatever I do?
+My days of taking all their insults are through!
+Goodbye, so-long, farewell, toodle-oo!
+
+Sp: I don’t like thinking what might happen to you
+If you strike out on your own!
+
+BLS: HA! I’ll brave the unknown!
+
+Sp: But Lickety, you can’t!
+
+BLS: And go it alone!
+
+Sp: Don’t go it alone!
+
+BLS: I’ll go it alone!
+
+Sp: Don’t go it alone!
+
+*End of the song.*
+
+Sp: I’ll go with you!
+
+BLS (slamming Spike against the wall): No! I don’t need you! I don’t need anyone!
+
+*BLS leaves the Lullabye Nursery.*
+
+Sp: Wait for me!
+
+*Spike quickly scibbles out a note and then follows Baby Lickety-Split.*
+
+*Cut to the festival. Reeka and Draggle are hiding behind a tree.*
+
+R: Remember, we have to make everything dark, dank . . .
+
+D: . . . and dreary. But how?
+
+R: I don’t know! Dark and dreary sound pretty hard!
+
+D: Then we’ll make everything dank!
+
+R: What’s dank?
+
+D: I don’t know!
+
+*Draggle pulls out a book of spells.*
+
+D: Maybe it’s in here! Uh, dabble, dagger, damage, dandruff . . . oh, here it is! Oh . . . it means wet.
+
+R: That’s it! We’ll make everything wet! What we need is some water! (spotting the Waterfall) O-o-over there!
+
+*Reeka and Draggle go to the Waterfall.*
+
+R: Perfect! We’ll take the waer from here and . . . send it back over there! We’ll flood the place!
+
+D: Hydia will be very proud of us!
+
+*Draggle starts splashing water in the direction of the festival.*
+
+R: Not like that! You’re a witch; cast a spell!
+
+D: But I never cast a spell before! Wait, here’s one!
+
+*Two Baby Sea ponies, Water Lily and Sun Shower, leap out of the water and see what the witches are doing.*
+
+D (reading the spell): Gurznic, ridget, lemonisnick!
+
+R: Let me see that!
+
+*Reeka grabs the book, which was upside down, and turns it right side up. Then she gives it back to Draggle.*
+
+R: Yoof! Now read it!
+
+D: Sorry! Hinsenomal, tikderve, kinsreg, erzaminig, flama botswaggle!
+
+R: That’s better!
+
+*They wait for a few seconds.*
+
+R: Well?
+
+D: Well, I read what it said!
+
+*Suddenly, some of the water from the Waterfall is diverted.*
+
+D: It worked!
+
+*Suddenly, Water Lily and Sun Shower appear with a giant sea shell. They spray the water at the witches, who are swept away.*
+
+*The witches are swept through the festival. They manage to knock an entire table of pies onto themselves.*
+
+R (spitting out pie): Yuck! Disgusting!
+
+*A crowd of ponies and animals gathers around the witches.*
+
+Skunk: Ew! What smells?
+
+R: We do!
+
+SS: It’s the witches from the Volcano of Gloom!
+
+BabySun: They’re cute!
+
+R: Cute? She called us cute!
+
+D: Oh, how embarrassing!
+
+R: I’m going home!
+
+*Reeka hits herself on the head with her hat. The ponies laugh.*
+
+D: We can’t go home. We haven’t made everything dark, dank, and dreary! What’ll we tell Hydia?
+
+R: We’ll tell her we made it messy!
+
+*Cut to Baby Lickety-Split running to a large cliff by the Waterfall, with Spike following.*
+
+BLS: Hurry, Spike! Look, this is a good place!
+
+Sp: A good place for what? Oh, my feet are killing me!
+
+BLS: To fly, like Wind Whistler and Northstar!
+
+Sp: But they’re pegasus ponies! You’re just an earthling; you can’t fly!
+
+BLS: Can too! I can do anything! Watch!
+
+Sp (grabbing her tail): No! You’ll get hurt!
+
+*BLS jumps off the cliff.*
+
+BLS: We’re flyyyyyying!
+
+Sp: We’re faaaaaalling!
+
+*They fall down the ravine.*
+
+BLS: Huh . . . guess I can’t fly . . .
+
+Sp (sighing): Can we go home now?
+
+BLS: I told you, I’m never going back to Dream Castle!
+
+*Cut to exterior Lullabye Nursery. Suddenly, Baby Sundance and Baby Lofty run out of it; Baby Lofty carries Spike’s note.*
+
+BabySun: Baby Lickety-Split’s gone--run away!
+
+*Baby Lofty sticks the note onto a branch, and ponies gather around it.*
+
+MS: And Spike’s with her!
+
+B: Oh dear, maybe I was too harsh on her at the show!
+
+MS: Don’t blame yourself, Buttons! I’ll find her, don’t worry!
+
+G: I’ll go with you . . . just in case!
+
+Sh: Oh, can I go with you? I never get to go anywhere!
+
+G: Oh, no! She’s nothing but bad luck!
+
+Sh: Just give me a chance! My luck’s bound to change . . . I think.
+
+MS: Everyone deserves a chance, Shady! You’re in!
+
+G: Lickety-Split loves the bushwoolies; maybe she went there!
+
+MS: Good idea! Let’s ride!
+
+F: Be careful! Stay alert! Say hi to the bushwoolies for me!
+
+*Cut to the interior of the Volcano.*
+
+H: One evil deed, that’s all I asked! Oh, you’re such a disappointment! I’ve given you everything a witch could want! Shabby clothes, a rotten place to live, all the foul-tasting food you can eat! And what do I get back? Nothing! Malevia over at Nightmare Heights, her daughter made Easter Sunday come up on a Tuesday! What’ve you done? Zip! A big fat zero!
+
+D: Uh-uh-uh . . . we . . . we’re really sorry, Hydia. Maybe if we tried again.
+
+H: You’ve humiliated me enough! We’ll have to do something else . . . something bigger! Something more . . . evil!
+
+R: What?
+
+H: Let me think . . . I’ve got it! It’s time to get tough! It’s time to show those Little Ponies we mean business! It’s time for the Smooze!
+
+R and D: The Smooze?
+
+H: That’s right! The same thing that wiped out that kingdom on the other side of the Black Mountains!
+
+R: Grundleland?
+
+H: Grundleland--what a joke! Those little Grundies never knew what hit them! Get out of there! Now in order to make the Smooze, we’ll need a few things . . . (shoves a long list into Reeka and Draggle’s faces) Go get ‘em!
+
+R (reading of the list): Um, mold, mildew . . . muck, mire . . .
+
+D: . . . fungus, slime, rust, and . . .
+
+D & R: . . . phlume!!!
+
+H: Yes, phlume!
+
+D: Not phlume, Hydia, don’t make us get phlume! Please don’t!
+
+R: We’ll get all the other things on the list, but not phlume!
+
+H: You’ll get what I tell you to get, now get going!
+
+*Hydia throws Reeka and Draggle down the stairs of the Volcano.*
+
+H: Ah, kids! *Cut to the ravine. Baby Lickety-Split and Spike are trying to get out.*
+
+Sp: I’ll give you a shove!
+
+BLS: I can do it myself!
+
+Sp: Okay . . . I was just trying to help.
+
+*Cut to Reeka and Draggle wading through a swamp.*
+
+R: What’s your rush?
+
+D: If we don’t get the stuff for the Smooze, Hydia will be even madder at us! And you know what that means!
+
+R: You get it! The thought of all those things makes me sick!
+
+D: Sick?
+
+Why, Reeka dear, you look a little pale!
+I fear you aren’t feeling at your best!
+I hope you haven’t come down with a chill . . .
+Perhaps you need to take a little rest!
+
+R: What about all the work we have to do?
+You’re not going to do it all alone, are you?
+
+D: Why, Reeka darling, what are sisters for?
+Not to worry, not to worry!
+
+I’ll do the dirty work! I’ll handle all the dirty work!
+You go relax in your room!
+I’ll collect the muck and mire;
+I wouldn’t want you to perspire!
+All you have to do is get the phlume!
+
+R: The phlume! Me?
+
+D: Why not? I’ll be getting everything else! You’re not that sick!
+
+R: You’re right! In fact, suddenly, I’m feeling a whole lot better!
+
+Draggle dear, I just now had a flash!
+I still owe you a birthday gift or two!
+I suffered from a lack of ready cash,
+But now I’d like to make it up to you!
+
+I’ll do the dirty work! I’ll handle all the dirty work!
+Each humble job I’ll assume!
+I’ll be working overtime,
+Collecting mold and filth and slime . . .
+All you have to do is get the phlume!
+
+D: The phlume? Me?
+
+R: Happy birthday!
+
+D: Reeka dear, you’re really much to kind. Let’s just divvy up the list.
+
+R: Oh, nonsense, I don’t mind! But if you really want to . . .
+
+D: I insist!
+
+R: We’ll both do the dirty work!
+We’ll both do the dirty work!
+Everyone should do her share!
+
+D: It’s really only fair!
+
+R: I’ll collect the greenish mold!
+
+D: I’ll collect the blackish muck!
+
+R: I’ll collect the furry mildew . . .
+Just my luck, the mildew’s stuck! Yuck, yuck!
+
+D: I’ll collect the yellow fungus!
+
+R: I’ll collect the silver slime!
+
+D and R: Doing dirty work together gets us done in half the time!
+You see, it’s great when we cooperate!
+
+R: I’ll do the dirty work!
+
+D: I’ll gladly do the dirty work!
+
+D and R: No need to fret or fight or mope or fume!
+
+R: I’ll do the dirty work!
+
+D: I’ll gladly do the dirty work!
+
+R: So long as someone else . . .
+
+D: So long as someone else . . .
+
+D and R: So long as someone else gets the phlume!
+
+R: Where’s the phlume?
+
+D: It wasn’t on your list?
+
+R: I thought it was on yours!
+
+D: Well, one of us better get it! What’ll we tell Ma--I mean, Hydia?
+
+R: We’ll lie; we won’t tell her we didn’t get the phume!
+
+D: But she’ll know! All she has to do is look in the buckets!
+
+*Reeka dumps all the stuff into one bucket.*
+
+R: There! She’ll never know the difference! You carry it!
+
+*Draggle trips over a snake that’s attatched itself to Reeka’s hat.*
+
+R: Klutz!
+
+*Cut to the Waterfall.*
+
+BLS: It’s no good, Spike! I’m too heavy!
+
+Sp: It’s all right! Dragons are strong!
+
+BLS: But you’re just a baby dragon.
+
+Sp: I’m still a dragon!
+
+*They fall backwards. *
+
+*Cut to Gusty, Shady, and Magic Star walking above the ravine.*
+
+MS: Did you hear something?
+
+G: My horn itches!
+
+Sh: Something must be wrong!
+
+MS: Something doesn’t have to be wrong, Shady! Think positive for a change!
+
+*Pan down to BLS and Spike lying at the bottom of the ravine. They get up.*
+
+Sp: Look!
+
+BLS: Help! Magic Star! Down here!
+
+Sp: Shady! Gusty! Help!
+
+*Pan back up the Magic Star, Shady, and Gusty.*
+
+MS: I heard something that time!
+
+G: Well, I didn’t.
+
+Sh: Maybe it’s going to rain! Maybe we’ll get all wet and catch pneumonia!
+
+G: Oh, I knew you shouldn’t have come!
+
+Sh: No, I like the rain! I love it!
+
+MS: We’ll worry about the rain later! We have to find Spike and Lickety-Split!
+
+*Pan to bottom of ravine.*
+
+Sp: They’re leaving!
+
+BLS: Nobody will ever find us down here. We’ll never get home . . .
+
+*Cut to a hole in the ground. A blue bushwoolie pops out of it.*
+
+B1: That you shadow?
+
+*The bushwoolie hops around a little.*
+
+B1: Guess so! Hey, bushwoolies, it’s spring!
+
+*More bushwoolies come out of the hole.*
+
+Bs: It’s spring, it’s spring, hooray!
+
+B1: The sun is shining and the snow is gone!
+
+Bs: Yeah, the snow is gone!
+
+B1: And it’s a bee-oo-tiful day!
+
+Bs: A beautiful day! Beautiful! Beautiful! Mm-hmm.
+
+*Back at the volcano . . . *
+
+H: Did you get the stuff?
+
+D: All of it!
+
+R: Everything!
+
+H: Excellent! Now, let’s see what we shall throw in first . . .
+
+*Hydia goes over to a ledge over the lava with the bucket and begins picking ingredients out of it.*
+
+H: A little muck for power and strength . . . a gob of slime to make it ooze . . . some fungus, for that little added zip . . .
+
+D: She’s going to find out!
+
+R: Shut up!
+
+H: A splash of phlume to make . . . why, where’s the phlume?
+
+*Reeka shoves Draggle, who runs into Hydia. The bucket falls into the Volcano.*
+
+H: You . . . you . . . you clumsy pea-brain! Look what you’ve done!
+
+D: It doesn’t . . . I mean . . . you were going to throw it in anyway, weren’t you?
+
+H: Oh . . . it’s not the same!
+
+R: Look, it’s working!
+
+H: It is working! The Smooze is alive!
+
+R: We did it!
+
+H: Say goodbye to the little ponies!
+
+R and D (laughing): Goodbye! Bye ponies!
+
+*The Smooze begins rampaging.*
+*Cut to the bushwoolies.*
+
+B1: C'mon, we'll be late!
+
+MS: Hi bushwoolies!
+
+B1: Hi Magic Star! We were just leaving for the festival!
+
+B2: With all sorts of bushmelons!
+
+B3: And we baked woolie-cakes, too, see?
+
+MS: We're looking for Baby Lickety-Split!
+
+B1: You lose her?
+
+G: She ran away!
+
+Bs: Ran away? Oh dear!
+
+B1 (spotting the Smooze): Behind you!
+
+MS: Out of the way, hurry!
+
+Bs: Look out! Move it! Careful!
+
+B1: Get the woolie cakes!
+
+B2: Yeah, yeah, the woolie cakes!
+
+G: Nevermind about those, get on!
+
+*Gusty and the two bushwoolies run away, but get smoozed anyway.*
+
+Sh: Oh, Gusty! Oh, look at you! It's all my fault, I know it!
+
+G: Yeah, it is! It's your bad luck!
+
+MS: It's not your fault, Shady!
+
+G: Yes it is! Yes it is!
+
+B1: It's her fault! I can hardly move!
+
+B2: Yeah! Her fault!
+
+MS: No, it's not! You're just grumpy because you've been smoozed!
+
+Bs: Smooze? What's Smooze?
+
+MS: It came from the Volcano of Gloom! The witches sent it! We have to warn the others!
+
+Sh: What about Spike and Lickety-Split?
+
+MS: you keep looking for them!
+
+Sh: Me?
+
+MS: Yes, you! I have to get back to Dream Castle!
+
+G: Forget it! She'll never find them!
+
+Sh: I will too!
+
+B3: Yeah, hope hope!
+
+Sh: You coming with me?
+
+B3: Coming with you? Oh yeah, good idea! Mm hmm, good idea, yeah!
+
+MS: To Dream Castle, everyone!
+
+*Hydia and her daughters are spying on the ponies with the scrying pool.*
+
+H: Gorgeous! Ponyland is turning dark, dank, and dreary! The Little Ponies are doomed!
+
+D: Then we'll be all alone up here.
+
+H: Splendid! We don't need anybody else!
+
+R (eating): Want some?
+
+D: What is it?
+
+R: Stuffed bat wings! Mmm, good!
+
+D: Are you sure we don't need anyone?
+
+*Back at the Waterfall*
+
+BLS: We'll never get out of here!
+
+Sp: Don't give up! We'll make it!
+
+BLS: If only I hadn't run away . . .
+
+Sp: If only you could fly!
+
+*Spike spots the Smooze.*
+
+Sp: Look out! This way!
+
+BLS: What is it?
+
+Sp: I don't know!
+
+*BLS and Spike enter a cave.*
+
+Sp: I hate to say this, but I think we're trapped!
+
+*Back at the festival*
+
+MS: Into the castle, everyone! The Smooze is coming!
+
+Sh: What's Smooze?
+
+F: Will we like it? Is it nice?
+
+MS: I'll explain later! Everyone inside, hurry!
+
+B: Let's go, everyone! Into the Castle, quickly!
+
+Quail: What's happening? I don't know! What's going on?
+
+F (to G): What's wrong with you?
+
+G: What's it look like, Bubblehead?
+
+MS (to WW and NS): Get me some water, quick!
+
+*WW and NS bring a tub of water.*
+
+MS: Dump it!
+
+G: The Smooze didn't come off.
+
+F: What's Smooze??
+
+MS: You're looking at it, Fizzy! The witches sent it down on us!
+
+F: They should be ashamed of themselves!
+
+MS: And there's more coming--enough to bury us all!
+
+WW: I know what can help us, and Megan's got us!
+
+*back at the volcano*
+
+D: Where are those ponies going?
+
+H: It doesn't matter! They can't stop the Smooze! Nothing can stop the Smooze!
+
+*At Megan's home*
+
+Mo: Danny! Megan! Watch me jump!
+
+Da: She'll never make it!
+
+M: You can do it, Molly! And smile!
+
+Da: She'll probably break the camera!
+
+*Molly jumps TJ over a bale of hay.*
+
+M: Way to go! By the time Mom and Dad get back, you'll be a champ!
+
+Mo: Look!
+
+M: Wind Whistler! North Star!
+
+Da: You know them?
+
+M: They're my Little Ponies!
+
+Mo: The ones you told us about?
+
+M: The very same!
+
+WW: Megan! Time is of the essence! We've come for the Rainbow of Light!
+
+NS: The witches from the Volcano of Gloom are trying to destroy us!
+
+M: That's awful! Here, take the Rainbow . . . but let me come with you! Maybe I can help!
+
+WW: No, Megan! It's our fight!
+
+NS: Besides, it's too dangerous!
+
+Da: I love danger! And I can ride like the wind!
+
+Mo: Me too!
+
+Da: I'm better!
+
+M: We can all help!
+
+WW: Perhaps you're right!
+
+M: If those witches want a fight, we'll give them one!
+
+Da: Let's fly!
+
+*Meanwhile, the Smooze is rampaging through Ponyland. Reeka and Draggle travel with it in a boat while Hydia watches from the volcano.*
+
+R and D: Something bad is coming down! Have you heard the news?
+
+Sm: Listen up!
+
+R and D: Get inside!
+Better run and hide!
+Nothing can stop the Smooze!
+
+Sm: You can't stop me!
+
+R and D: See the way it slithers forth
+Spewing gobs of ooze henceforth!
+
+Sm: I love ooze!
+
+H: Here is comes!
+
+R and D: Right now!
+
+H, R, and D: Nothing can stop the Smooze!
+
+Sm: No way!
+
+R, D, and Sm: You can't escape it, you can't escape it, you haven't got a chance. Yeah!
+
+H: That evil goo is a witch's brew!
+
+R and D: No matter what you do, it's gonna get to you! Oooooo!
+
+Anyone who tries to fight is guaranteed to lose!
+
+Sm: Guaranteed!
+
+R and D: You can't win!
+
+H: You oughtta pack it in!
+
+H, R, D, and Sm: Nothing can stop the Smooze!
+
+Sm: Don't even try!!
+
+R and D: Here comes the Smooze cruisin' along
+Singin' it's funky, gunky song!
+
+H: Just ain't no way to stop . . .
+
+H, R and D: Our gooey, gooey glop! Ooooooh!
+
+When it comes to witches' brews,
+Smooze is what we choose!
+We won't stop,
+Nothing else can top
+Our ......... unstop-
+-pable Smooooooooze . . .
+
+Sm: I love to Smooze!
+
+R and D: Smoooooooze . . . nothing can stop the Smooze!
+
+Sm: Smooze...
+
+SS: Dream Castle is almost gone . . .
+
+MS: Megan! Release the Rainbow of Light!
+
+*Megan releases the Rainbow of Light, which begins beating back the Smooze.*
+
+Ponies: Yay!
+
+H: Fight back, Smooze! What's the matter with you? Attack!
+
+D & R: The Smooze is losing!
+
+D: I think we're in a lot of trouble.
+
+*The Smooze continues to take a licking.*
+
+D: Oh, are we gonna get it! Are we gonna get it!
+
+R: Shut up!
+
+Da: Way to go, Rainbow! All right!
+
+*The ponies cheer.*
+
+*Suddenly, the Smooze grabs the Rainbow and buries it.*
+
+Mo: The Smooze got our rainbow!
+
+F: Oh no! What're we gonna do?
+
+*Cut to interior of the house on the volcano.*
+
+H: The Smooze can't lose . . . There's something you haven't told me . . .
+
+R: No! We told you everything!
+
+H: I don't believe you!
+
+D: We wouldn't lie!
+
+H: I told you, I don't care if you lie, just not to me!
+
+R: But we didn't do anything wrong!
+
+D: Reeka's right, the Smooze worked without it!
+
+H: Without what?
+
+D: Uh oh!
+
+H: Without what?
+
+D: Nothing!
+
+H: Then eat!
+
+R: Ewwww!
+
+D: No, don't make us eat ice cream!
+
+H: Then tell me why the Smooze lost!
+
+D: Well . . . maybe there is one thing . . .
+
+R: Draggle . . .
+
+H: Go on!
+
+D: Well . . . well . . . well . . . when we got the stuff to make the Smooze, we uh, we uh, we forgot the phlume!
+
+H: You forgot the phlume????
+
+R: It was an honest mistkae, Mama!
+
+H: What . . . did you . . . call me?
+
+R: Sorry, Hydia! I didn't mean to call you Mama!
+
+H: I'm giving you one last chance, girls! Get the phlume or get a room!
+
+*Back at Dream Castle.*
+
+SS: The Rainbow of Light is gone forever . . .
+
+Da: Why can't we just dig it out?
+
+WW: That's impossible! The congealed Smooze has formed an impenetrable shell! I'm afraid we're stuck with it.
+
+G: No, I'm stuck with it, Big Mouth!
+
+B1: Yeah! Stuck with it!
+
+B2: Yeah!
+
+F: We can't give up hope!
+
+SS: Fizzy's right; we can rebuild our home and maybe even find a way to unsmooze everybody!
+
+BL, BSun, and BRibbon: Rebuild! Rebuild! Be happy again!
+
+G: Forget it, we're finished! It's over!
+
+B1: Yeah!
+
+M: No! It's not over! You can't give up hope!
+
+There's always another rainbow,
+Search until you find it!
+Don't look at the clouds, look behind it!
+There's a rainbow there somewhere!
+
+There's always another rainbow,
+Though it all seems tragic;
+Just open your eyes and like magic
+There's an answer to your prayer!
+
+Now you feel forlorn,
+But hope can be reborn!
+Try to lose that frown!
+Look up, not down!
+
+And you'll find another rainbow!
+I can guarentee it! Even though it seems you've reached the rainbow's end!
+There's always another rainbow,
+Always another rainbow round the bend.
+
+*A glob of Smooze falls on Sweet Stuff.*
+
+SS: More Smooze, too!
+
+Mo: Be brave, Sweet Stuff; I'll help you!
+
+SS: You? You couldn't help a skunk stink!
+
+F: Gee, even her twinkle is gone!
+
+M: Well, I'm not giving up! We can go to the Moochick; he helped us before!
+
+G: No way! The Moochick's too absent-minded to even remember who we are!
+
+WW: We must explore every possibility, every avenue! I'll take you there, Megan!
+
+F: And I'll go with you! Unicorns are good luck! And good company, too!
+
+SS: We'll need more than good luck!
+
+*Meanwhile, Reeka and Draggle go off to get the phlume. . .*
+
+D: Y'know, maybe we should get a room! Maybe it's time to move out, get a place of our own!
+
+R: Live with you? I'd rather get the phlume!
+
+D: Well, that's fine with me!
+
+*The suddenly spot the phlume (which is a huge carniverous plant.)*
+
+D: There it is!
+
+R: On second thought, you get it! You're taller!
+
+D: You're stronger!
+
+R: It's the phlume or Hydia, what do you want?
+
+D: We'll do it together! You hold it, I'll stick it!
+
+R: You hold it, I'll stick it! Gimmee the pick and the bottle!
+
+*They cautiously approach the phlume.*
+
+D: Ready?
+
+R: Grab it!
+
+*Draggle grabs the plant.*
+
+D: Stick it!
+
+*Reeka sticks the phlume with the pick and ichor sprays everywhere.*
+
+D: Bottle it!
+
+*Reeka gets the bottle and tries to get some ichor in it.*
+
+R: Whatever you do, don't let go!
+
+*The phlume grabs Draggle with its fronds and throws her aside.*
+
+R (as the phlume grabs her): You let go!
+
+D: I didn't mean to!
+
+*The phlume starts beating up Reeka and Draggle in various ways. It begins hitting them together, but they grab ahold of each other.*
+
+D: Hang on!
+
+*The phlume tickles Draggle and she lets go of Reeka. Luckily, Draggle gets away from the phlume . . . but it holds Reeka over the cliff.*
+
+*Draggle grabs Reeka's leg and tries to pull her to safety.*
+
+D: I've got you!
+
+R: Pull!
+
+D: I'm pulling!
+
+R: Pull harder!
+
+D: I'm pulling as hard as I can!
+
+R: Just don't drop me!
+
+D: Just don't drop the bottle! You're almost out!
+
+*Reeka bites the phlume and it lets her go suddenly. Both Reeka and Draggle fly backwards, landing at the bottom of the hill.*
+
+R: I got it!
+
+*Meanwhile, in the Mushromp . . .*
+
+M: I hope the Moochick's home!
+
+F: Mr. Moochick! Mr. Moochick!
+
+Moo (to Habbit): Well, is it your turn or mine? I don't recall! Oh yes, of course, of course!
+
+*The Moochick moves a piece on his (four-layer) checkerboard; Habbit then jumps over all the Moochick's pieces.*
+
+Moochick: Oh, I never win!
+
+M: Mr. Moochick! Are you in there?
+
+WW: That's funny; the Moochick never leaves the safe confines of his Mushromp.
+
+F: I'm sure he's here somewhere! He has to be here! Maybe he's here but he doesn't want to see us!
+
+Moo (appearing beside them): And who, may I ask, are you?
+
+WW: I'm known as Wind Whistler!
+
+F: And I'm Fizzy! We're Little Ponies!
+
+M: And I'm Megan!
+
+Moo: My, my, what a funny Little Pony you are, Megan!
+
+M: I'm not a Little Pony, Mr. Moochick! Don't you remember us?
+
+Moo: You're from outside the Moochick, right?
+
+M: Right! And the Little Ponies need your help!
+
+Moo: Not again!
+
+F: You do remember!
+
+Moo: How could I forget?
+
+WW: You gave us the Rainbow of Light!
+
+Moo: It worked, I presume.
+
+M: It worked great. But it's gone now. The Smooze got it!
+
+F: Do you have another one?
+
+Moo: Oh my, oh my, no, I'm sorry! There is no more Rainbow of Light! Hmm . . . what a shame!
+
+M: And the Smooze covered over Dream Castle, too! The Little Ponies have no place to live!
+
+Moo: Well, that's ridiculous! Absurd! Everyone has to have a place to live!
+
+Home is where the heart is . . .
+It's where you hang your hat!
+Without a home, you're no where,
+And no where is no place to be at!
+
+WW: Precisely, Mr. Moochick, but what do you propose we do about it?
+
+Moo: Why, you have to have a home,
+You can't live without a home!
+Everybody has to have a home!
+And I have one to suit you to a "T";
+It's this darling little villa in Capri!
+Lot's of closet space and overlooks the sea!
+
+M: Uh, Mr. Moochick, it's very sweet of you offer, but I don't think it's quite what the Little Ponies had in mind!
+
+Moo: No? But goodness me!
+
+You have to have a home . . .
+What about the Hippodrome?
+It used to be quite popular in Rome!
+
+Or why not do what Cleopatra did
+And buy a nice Egyptian pyramid?
+Take a look! I guarantee you'll flip your lid!
+
+F: Gee, that's great!
+
+WW: It's wonderful, Mr. Moochick, but we couldn't possible live there!
+
+Moo: My, my, you certainly are picky Little Ponies! Now let me see . . .
+
+What about a teepee? What about an igloo?
+What about a treehouse made completely of bamboo?
+I knew a woman once--lived in a shoe!
+I know, it simply isn't you!
+
+You need a place to dwell . . . the Taj Mahal is swell!
+Or maybe you'd prefer a swank hotel!
+Or how about a palace like Versailles?
+Well, I really don't know what I ought to try!
+You're looking for some castle in the sky!
+
+WW: We truly apologize for being so difficult, but Dream Castle was rather special!
+
+F: Yeah, it's not so easy to replace, but you can do it! I know you can!
+
+M: You see, Mr. Moochick, to the Little Ponies, Dream Castle was like...like a little bit of heaven!
+
+Moo: Heaven? Well, I'm afraid you little ponies had better come back down to Earth!
+
+You have to find a home . . .
+How about the Astrodome?
+Or something futuristic made of chrome?
+
+I'm sorry, but if you want my advice
+You'll simply have to make a sacrifice!
+I know the home you had was very nice,
+But what you're looking for is paradise!
+
+WW: Terrific!
+
+Moo: It's paradise!
+
+F: We'll take it!
+
+Moo: It's paradise!
+
+F: Oh, it's beautiful, Mr. Moochick!
+
+WW: The Paradise Estate is exactly what we were looking for.
+
+M: We're very grateful, Mr. Moochick, but what about the Smooze? What if the witches make more?
+
+Moo: Well, that's a problem, yes! It's very difficult to stop the Smooze. Maybe even impossible.
+
+WW: Oh, but we were counting on you, Mr. Moochick! We presumed you knew everything!
+
+Moo: I do know everything, my flying four-legged friend! The only ones who can stop the Smooze are . . . uh . . . are . . . are . . . of course! The flutter ponies!
+
+M: Where are they?
+
+Moo: Well, they're not easy to find!
+
+F: Can you give us a clue--anything! We'll find them!
+
+Moo: Hm? Ah, you're in luck! This ancient map will show you the way to Flutter Valley, the home of the flutter ponies! But don't tell them I gave it to you! They don't like to be bothered!
+
+M: We won't breathe a word, Mr. Moochick! Promise!
+
+Moo: Off, off, off you go! Time is short! Take your map and your Paradise Estate and good luck to you!
+
+F: You've already given us good luck, Mr. Moochick! Buh-bye! Thanks!
+
+Moo: Bye-bye, bye-bye! (to Habbit) Hm, are you sure it's the flutter ponies? Maybe it's the singing grasshoppers. Then again, it could be the wiggleworms from beyond the water lilies . . .
+
+*Cut to Spike and Baby Lickety-Split wandering through a bunch of tunnels.*
+
+Sp: Another tunnel . . .
+
+BLS: We'll never get out of here, Spike!
+
+Sp: Aw, we'll be out of here in two flicks of a dragon's tail! You'll see!
+
+BLS: I'm scared!
+
+Sp: Aw, don't be! I'll protect you!
+
+*A rock falls from the ceiling.*
+
+Sp: What was that??
+
+*The Grundles come out of hiding.*
+
+Grundles: Don't be frightened!
+What's you're hurry?
+Have no fear!
+Not to worry!
+Sorry to alarm you . . .
+Grundles won't harm you!
+
+Sp: Grundles? How do we know you won't harm us?
+
+BLS: W-we thought you were some kind of monsters!
+
+GK: Grundles good!
+
+BLS: They still look like monsters to me!
+
+GK: Is what everyone thinks! But Grundles not monsters--Grundles good!
+
+Gs: Grundles good! Grundles good! Grundles good!
+Grundles small; Grundles nice;
+Grundles also quite concise!
+Grundles don't waste words!
+Wasting words for the birds!
+People stunned--often scared--
+Meeting Grundles unprepared!
+
+Grundles are misunderstood!
+Grundles neat, Grundles gentle,
+Grundles sweet and sentimental!
+Grundles hug you, never bug you!
+
+Grundles good! Grundles good! Grundles good!
+Grundles are misunderstood!
+Take a shot! Get acquainted!
+Grundles not as we're painted!
+Grundles love all and above all . . .
+
+Grundles good! Grundles good! Grundles good!
+Grundles good! Grundles good! Grundles good!
+
+GK: I am king of Grundles!
+
+Gs: We are rest of Grundles!
+
+GK: We are all that's left of great but tiny kingdom of Grundleland!
+
+Gs: Waaaaaah! Grundleland! We miss it!
+
+GK: Sorry Grundles! I try not to mention it too often!
+
+Sp: What happened?
+
+GK: Witches! Smooze! It was terrible!
+
+BLS: What's Smooze?
+
+Sp: Can you help us get back to Dream Castle?
+
+GK: Never fear, never doubt, Grundles help to get you out!
+
+BLS: So . . . what's Smooze?
+
+*Grundle King leads everyone outside. Smooze is all around.*
+
+GK: Grundlemumf!!!
+
+BLS: What's Smooze?
+
+Gs: That's Smooze!
+
+GK: Oooooo! Witches do it again!
+
+Sp: Are you still going to help us?
+
+GK: Grundles help!
+
+Grundle: Grundles hurry!
+
+Grundle: Grundles move it!
+
+Grundle: Grundles scurry!
+
+Grundle: Hey! Wait for Grundle!
+
+*Meanwhile, Reeka, Draggle, and Hydia are down by a patch of Smooze, preparing to add the phlume.*
+
+R: Throw it in, Hydia!
+
+D: Give it the phlume!
+
+H: Open up, my precious! Hydia has something special for you!
+
+*The Smooze spits the phlume out.*
+
+D: It didn't work!
+
+H: It has to work! Drink!
+
+D: Look out!
+
+R: It's the old Smooze!
+
+H: Worse! It's meaner and madder! There's no stopping it now! This time it'll cover all of Ponyland and rid us of the Little Ponies forever! Back to the house! I want to watch this!
+
+*In the meantime, Fizzy, Wind Whistler, and Megan have returned with Paradise Estate, which the other ponies are exploring.*
+
+B: We could put our new dance studio in here!
+
+Sun: There's enough space down here for a grand ballroom!
+
+Lofty: And we can have our nursery in this room!
+
+B: There's even a swimming pool!
+
+Bs: A swimming pool? Yay! Yeah yeah!
+
+B1: Big deal.
+
+B2: Who likes swimming anyway?
+
+B1: Tell me, who? Watch it! Whoa, whoa!
+
+NS: The Smooze! It's alive again!
+
+M: We'd better find those flutter ponies now!
+
+MS: I'm going with you!
+
+F: And me! Don't forget me!
+
+Mo: I want to go, too!
+
+M: No, Molly, it's not safe!
+
+Da: Safe or not, we're not staying behind this time!
+
+Mo: We can help! You said so yourself!
+
+M: All right! This is no time to argue!
+
+NS: Hurry! The Smooze is coming!
+
+M: Let's ride!
+
+*Draggle and Reeka are scrying on the ponies and see the party leave.*
+
+R: They're afraid! They're running away!
+
+H: I want those Little Ponies stopped!
+
+R: Why? You said nothing can stop the Smooze now . . . What difference does it make?
+
+H: Get Ahhg.
+
+D: Oh no, not Ahgg!
+
+H: Get him!
+
+*Cut to a Smoozed landscape . . . Shady is still searching for Baby Lickety-Split and Spike.*
+
+Sh: We'll never find Lickety-Split . . .
+
+B3: Oh, never!
+
+Sh: Everything looks like everything else!
+
+B3: Yeah . . . everything!
+
+Sh: Oh, what if the Smooze got them?
+
+B3: The Smooze got them? Oh no!
+
+Sh: It's not for sure, bushwoolie! C'mon, we have to keep looking!
+
+B3: Yeah, keep looking! Keep looking!
+
+*Cut to a gloomy cavern with steps leading down it.*
+
+R: What a day! First the phlume, now Ahgg!
+
+D: We have to do everything!
+
+R: This is it, I mean it! I'm through after this! From now on Hydia can do everything herself!
+
+D: Are you going to tell her?
+
+R: Don't bother me!
+
+*Reeka and Draggle look down a chasm.*
+
+R: Ahgg, are you in there?
+
+*A roar fills the air.*
+
+D: He's in there!
+
+R: We need your help, Ahgg!
+
+*Another roar.*
+
+D: Please, Ahgg, don't be difficult!
+
+*A roar and two giant legs swipe at the witches.*
+
+R: Nice Ahgg, here! I made something special for you!
+
+*Ahgg grabs the plate from Reeka. Crunching is heard.*
+
+D: Ahggie likes it!
+
+R: Does that mean you'll help?
+
+*A giant belch comes from the chasm.*
+
+D: Is that a yes or a no?
+
+*Back to Shady and the bushwoolie; both are sitting down crying.*
+
+Sh: I'm sorry, bushwoolie, I didn't mean to make you cry!
+
+B3: You cry, I cry! I'm sorry!
+
+Sh: I'm just sad we haven't found Spike and Lickety-Split. I guess I'm a failure.
+
+B3: A failure. You fail, oh yeah, yeah, yeah.
+
+Sh: You don't have to agree with everything I say!
+
+B3: Yes I do! Bushwoolies agree with everything, all the time! Yes we do, yes yes!
+
+Sh: Don't you ever have anything to say for yourself?
+
+B3: Yeah . . . run!
+
+Sh: Run? Why run?
+
+*Shady looks behind her and sees the Smooze coming.*
+
+Sh: Run!
+*In the meantime, Megan and her friends follow the map . . .*
+
+M: We must be going the right way! There are the giant sunflowers! There's no time to go around them, we'll have to go through!
+
+Mo: They're so big, we'll get lost!
+
+WW: Just keep your eye on the sky! I'll get you through safely!
+
+F: Great idea, Wind Whistler! It's a good thing you came along! We'll make it for sure now! We'll just . . .
+
+MS: Calm down, Fizzy! We won't get anywhere if you don't stop talking!
+
+F: Sorry! It's just sometimes I get so excited, I just . . .
+
+MS: Follow me!
+
+F: Gee, I don't know why a Little Pony can't be enthusiastic once in a while!
+
+WW: Straight ahead! You're doing splendidly!
+
+Da: Now I know how an ant feels!
+
+WW: To the left! You're drifting!
+
+M: Stay close, everybody!
+
+MS: How much further?
+
+WW: You've reached the half-way point!
+
+*Suddenly, Smooze begins appearing over the horizon.*
+
+WW: Oh no!
+
+M: What is it?
+
+WW: Smooze! Run for it!
+
+F: Get on!
+
+M: That way!
+
+WW: Faster! It's getting closer!
+
+*Suddenly, Megan trips and falls.*
+
+MS: Megan!
+
+M: Keep going! I'll cath up to ya!
+
+*Magic Star and Fizzy trot ahead. Megan gets up, but the earth splits in front of her and fills with Smooze.*
+
+M: Help!
+
+*The other ponies are too far ahead to hear Megan. They reach another channel of Smooze.*
+
+Mo: Can you jump it, Fizzy?
+
+F: Gosh, I don't think so!
+
+MS: I can! Get on!
+
+Mo: What about Fizzy?
+
+F: Not to worry! I'll just use my unicorn magic!
+
+*Fizzy winks across.*
+
+Da: Wow!
+
+F: Come on!
+
+MS: Hang on!
+
+*Magic Star jumps across.*
+
+Mo: Where's Megan?
+
+*Wind Whistler flies back to find Megan.*
+
+*The Smooze is getting nearer to Megan, so she prepares to vault over the chasm using a giant sunflower.*
+
+M: Here goes nothing!
+
+*Megan vaults across but only manages to catch the edge of the cliff.*
+
+M: Help me! I'm falling!
+
+WW: Hold on, Megan!
+
+M: I can't!
+
+*Megan falls, but is caught by Wind Whistler. They rejoin the others.*
+
+Mo: Megan!
+
+Da: Are you all right?
+
+M: I'm fine, thanks to Wind Whistler!
+
+WW: It's easy to be courageous when helping others!
+
+F: Gee, Wind Whistler, that's beautiful! I love the way you talk!
+
+MS: Smoozeball coming! Look out!
+
+*A purple ball bounces up to the ponies, but turns out to be a bushwoolie.*
+
+B3: Hi!
+
+F: Bushwoolie! We thought you were a smoozeball!
+
+MS: What about Lickety-Split and Spike?
+
+Sh (trotting up): We can't find them!
+
+F: Oh, Shady, that's awful!
+
+Sh: I tried, I really did, we looked everywhere, honest!
+
+B3: Yeah, everywhere! Shady tried!
+
+MS: I'm sure you did!
+
+Sh: Now that Megan's here, maybe my luck will change!
+
+M: We're going to need all the luck we can get! If this map is right, Flutter Valley is that way, through a place called Shadow Forest!
+
+Da (making a face): Oooooo!
+
+Mo: Danny!
+
+*Cut to a field. The Grundles stand in the middle in a human . . . err, Grundle ladder, with the Grundle King on top, surveying the countryside.*
+
+Sp: What do you think, king?
+
+GK: Dream Castle that way!
+
+BLS: You sure?
+
+Sp: Seems to me we've been that way already. What's over there?
+
+GK: Smooze!
+
+*BLS, Spike, and the Grundles run from the Smooze. They end up in the river. Luckily, a log floats by.*
+
+Sp: Climb on!
+
+*Everyone climbs onto the log.*
+
+GK: Spike! Tail smoozed!
+
+Sp: It's one of my favorite parts . . .
+
+BLS: Oh, Spike . . .
+
+GK: Don't be sad. Not too bad!
+
+Sp: Maybe I can use it to steer; nothing else to do with it now!
+
+*The log goes over a waterfall, but no one is hurt. However, more Smooze is flowing into the river ahead.*
+
+GK: More Smooze!
+
+Sp: Lean to the right, everybody! Lean! Prepare to go ashore!
+
+*The log hits a rock and everyone is thrown quite a ways into the forest. The clearing has many flowers and a small well.*
+
+BLS: That was close!
+
+GK: We almost went way of Grundleland!
+
+Gs: Ohhhh, Grundleland!
+
+GK: Must remember not to mention Grundleland!
+
+Gs: Ohhhhh, Grundleland!
+
+GK: Grundlemumf!
+
+BLS: If only I hadn't run away, none of this would've happened to me.
+
+GK: It bring Grundle King!
+
+*BLS wanders over to the well, looking dejected.*
+
+BLS: That's true, but we're lost, your tail's smoozed, and it's all my fault! If only somebody could help me!
+
+Echo (from the well): Help me!
+
+Sp: Hey, wait! Maybe we can wish away the Smooze!
+
+BLS: That's not a wishing well. It can't help.
+
+Sp: Can't hurt! Go on, Lickety-Split, make your wish! Who knows, maybe it'll change things!
+
+BLS: I don't know, there's an awful lot to change . . .
+
+No one's in a fix like I am!
+
+Echo: I am!
+
+BLS: No one has the luck I do!
+
+Echo: I do!
+
+BLS: No one has the setbacks I have!
+
+Echo: I have!
+
+BLS: Look where life has led me to!
+
+Echo: Me too!
+
+BLS: Nothing I can see can help me . . .
+
+Echo: Help me!
+
+BLS: And with all that we've come through!
+
+Echo: Come through . . .
+
+BLS: I wish this was a dream so I could wake up . . .
+
+Echo: Wake up!
+
+BLS: But what good will wishing do?
+
+Sp: Come on, Lickety-Split, make a real wish! Feeling sorry for yourself isn't going to improve the situation!
+
+BLS: I can't help it! Everything looks so hopeless!
+
+Nothing I can see can help me . . .
+
+Sp: Somebody will save you!
+
+BLS: Who-oo?
+
+Echo: Yoo-hoo!
+
+BLS: I wish there was a cozy little inn near . . .
+
+Echo: In here!
+
+BLS: But what good will wishing do?
+
+Echo: It might make your dream come true!
+
+Sp: Hey, someone's down there!
+
+*The Grundle King drops the bucket down the well and they all pull it up. Morning Glory is in the basket.*
+
+BLS: It's a . . . what is it?
+
+MG: I'm Morning Glory, a flutter pony. Who're you?
+
+BLS: Lickety-Split! I'm a baby pony!
+
+Sp: And I'm Spike!
+
+GK: And I am king of Grundles!
+
+Gs: We are rest of Grundles!
+
+Sp: You live in this well?
+
+MG (getting out of the bucket and kicking it): Goodness, no! I stopped for a drink and fell in. My wings got wet and I couldn't fly out!
+
+*The bucket knocks Morning Glory off her feet, but Spike and the Grundles catch her.*
+
+MG: Thank you! What are all of you doing here?
+
+BLS: Trying to get away from some ugly purple stuff!
+
+MG: Smooze?
+
+Sp: You know about Smooze?
+
+MG: Flutter ponies know all about the Smooze!
+
+GK: You help us?
+
+MG: Certainly! You helped me--it's only fair!
+
+BLS: Then my wish did come true!
+
+MG: Follow me, I'll take you to Flutter Valley!
+
+*Cut to Paradise Estate.*
+
+NS: Here comes the Smooze!
+
+B: How close is it?
+
+NS: Too close!
+
+*Cut to Shadow Forest.*
+
+M: It's Shadow Forest, all right.
+
+Mo: Looks so dark in there!
+
+Da: You should've brought your night-light!
+
+M: Danny!
+
+Da: Only kidding!
+
+Mo: You were not!
+
+Sh: Over here, I found a trail, hurry! Gee, I finally did something good. Maybe my luck is changing!
+
+Mo: It's scary in here!
+
+Da: Aw, they're only shadows! Don't be such a chicken!
+
+*A tree branch falls behind Danny and he jumps back.*
+
+Da: What was that?
+
+WW: It's only a tree branch! An oak, I believe. Nothing to be frightened of.
+
+Mo: You bring your night-light, Danny?
+
+Da: All right, big deal! So I thought it was something else!
+
+Mo: What, a monster?
+
+M: Come on, you two, that's enough! There aren't any monsters here!
+
+Sh: But where's here? We're lost, I just know it!
+
+F (looking irritated): We're not lost, Shady! Relax!
+
+M (looking at the map): Oh . . . oh, here we are!
+
+Da: What are all those squiggly lines?
+
+M: I don't know.
+
+*A tree branch impales the map. Megan grabs the map back.*
+
+M: I do now! Run!
+
+WW: Wait! There's no need to panic!
+
+*Several branches land around Wind Whistler.*
+
+WW: Now panic!!
+
+*Everyone races through the forest as the trees fling branches at them.*
+
+Sh: We'll never make it through the forest!
+
+F: Yes we will!
+
+*Fizzy turns around and runs back.*
+
+M: Fizzy! Fizzy, come back!
+
+*Fizzy keeps winking as the trees fling branches at her. Then she rejoins the others.*
+
+Mo: I wish I could disappear like that!
+
+M: Keep running! Don't stop! Flutter Valley should be right through there!
+
+MS: Look!
+
+F: What a wonderful place! These flowers are the most beautiful I've ever seen! Smell so sweet!
+
+Mo: I'll bet Flutter Valley's on the other side of that tall, furry plant.
+
+M: There's no tall, furry plant on the map!
+
+Mo (touching the "plant"): Really?
+
+*The "plant" growls.*
+
+M: Careful! Don't touch it!
+
+*The "plant" turns out to be Ahgg, the giant spider. It chases the ponies over to a bunch of boulders.*
+
+F: Oh my goodness!
+
+Da: Awesome!
+
+Mo: It's the ugliest thing I've ever seen.
+
+Da: Reminds me of your friend Laurie!
+
+Mo: Does not!
+
+WW: Perhaps there's another way into Flutter Valley.
+
+M: Not according to the map.
+
+F: Maybe it'll go home.
+
+Sh: Maybe we should go home.
+
+Da: Let's see if it's hungry!
+
+M: Danny!
+
+*Danny moves away from the boulders.*
+
+Da: Hey, Ugho, you hungry?
+
+*Ahgg roars.*
+
+*Danny throws some candy into his mouth.*
+
+Da: See? It's good! Here, go get it!
+
+*Danny throws the candy across the canyon and Ahgg leaps after it.*
+
+M: Now's our chance!
+
+*Everyone races to the giant spider web blocking the entrance and the ponies try to get through.*
+
+Sh: We can't do it, it's too sticky!
+
+MS: Keep trying!
+
+B3: Look out, he's coming back!
+
+Sh: We're stuck!
+
+*The humans start freeing the ponies from the web.*
+
+F: Hurry, please!
+
+M: There!
+
+*They all run to safety.*
+
+M: We've gotta get past it!
+
+Mo: I know! I heard spiders are ticklish!
+
+Da: That's the dumbest thing I ever heard!
+
+Mo: Is not!
+
+Da: Is too!
+
+Mo (grabbing a cat-tail): You just watch!
+
+*Molly tickles one of the spider's leg from behind a boulder. It chuckles.*
+
+M: It laughed!
+
+Da: Huh! Barely!
+
+*Megan grabs a bunch of cat-tails and gives them to everyone.*
+
+M: Start tickling, everybody!
+
+*They tickle. The spider laughs hysterically.*
+
+M: The web's falling apart! Keep it up!
+
+B3: Coochi coochi coo!
+
+Mo: I knew spider's were ticklish!
+
+Da: That's `cause you're my sister! Good work, Molly!
+
+*Danny kisses Molly.*
+
+Mo: Ewwwww, Danny kissed me!
+
+*The spider falls to the ground in spasms of laughter.*
+
+M: There's an opening! Come on!
+
+*They run and start climbing a cliff at the end of the canyon. Ahgg recovers and runs over to catch them. They are all safely away from him except Megan, who grabs a bad rock and falls back.*
+
+Da: Megan!
+
+M: Help me!
+
+*Wind Whistler flies back and zooms around Ahgg's head, confusing him. Megan climbs to safety.*
+
+*They all proceed along the path and at last reach Flutter Valley.*
+
+M: Oh, it's unbelievable!
+
+F: I never dreamed anything could be so beautiful!
+
+MS: Look at all the flutter ponies!
+
+Mo: There're so many of them!
+
+Sh: But they're not very big. How can they stop the Smooze?
+
+M: Let's find out.
+
+Mo: Where'd they all go?
+
+Sh: Maybe they're afraid of us. Maybe they don't want us here!
+
+M: Hello! We're not here to hurt you, flutter ponies! We need your help!
+
+Mo: Up there!
+
+*Rosedust flies down.*
+
+R: I am Rosedust, the queen of the flutter ponies.
+
+M: Um, I'm Megan! And these are my friends, the Little Ponies!
+
+R: I heard you say you need our help!
+
+M: Oh, we do, Rosedust!
+
+F: The Smooze!
+
+M: We've been told you're the only ones who can stop it!
+
+R: It is true, we have that power.
+
+MS: Will you help us, then?
+
+R: Try to understand. We want only to be left alone.
+
+M: Then you won't help the Little Ponies?
+
+R: No.
+
+MG (flying in): You have to help them, Rosedust!
+
+R: Morning Glory!
+
+Sh: Lickety-Split! Spike! I never thought we'd see you again!
+
+MG: They need our help, Rosedust!
+
+R: It's not our fight, Morning Glory.
+
+M: Yes it is! It's everyone's fight!
+
+BLS: Yeah! Everybody has to help everyone else! I mean, I wouldn't even be here if it wasn't for the Grundles!
+
+GK: Greetings!
+
+BLS: Somebody has to stop the Smooze.
+
+MG: Please, Rosedust!
+
+*Rosedust flies around indecisively.*
+
+*Meanwhile, Hydia, Draggle, and Reeka are in their boat again.*
+
+H: The Little Ponies are finished! There's no escape this time!
+
+*Cut to Paradise Estate*
+
+NS: It's nearly on top of us!
+
+B: We'll have to make a run for it!
+
+NS: We can't! We're surrounded by Smooze!
+
+B: To the roof!
+
+*Pan to the boat*
+
+H: Just watch! The Smooze will do the rest!
+
+*Cut to Paradise Estate. All the ponies are now on the roof.*
+
+BLofy: What're we going to do?
+
+B: Everyone, close your eyes! Close `em! That's it! Now I want you all to think of Megan and Magic Star, and Fizzy and Wind Whistler! Now imagine a sky filled with flutter ponies! Do y'see `em?
+
+SS: I don't see anything!
+
+G: Neither do I.
+
+BSun: I do! I do!
+
+BLofty: What's that sound?
+
+B: It's . . . them!
+
+Ponies: They're coming! They're coming! Hooray! Hooray!
+
+B: Lickety-Split! You're back!
+
+R: Shift to Utter Flutter! Push back the Smooze!
+
+H: It's the flutter ponies! My Smooze!
+
+Ponies: Flutter ponies, get the witches! Flutter ponies, get the witches!
+
+B: I'm glad you're home, Lickety-Split!
+
+BLS: Me too!
+
+H: Fight back, Smooze! Don't let them beat you!
+
+R: C'mon, Smooze! You coward!
+
+D: Work, Smooze! Do something!
+
+*The Smooze half-heartedly throughs gobs of itself at the flutter ponies, but is driven back.*
+
+MS: It's Dream Castle!
+
+M: The Rainbow of Light! It's okay now!
+
+*Three flutter ponies come near the roof of Paradise Estate and blow the Smooze off Sweet Stuff, Gusty, and the two bushwoolies.*
+
+SS: Thank you, flutter ponies!
+
+Mo: Your twinkle is back, Sweet Stuff!
+
+*Meanwhile, in the witches' boat . . .*
+
+H: Return to the volcano! It's our only chance!
+
+R: You said nothing could stop the Smooze!
+
+H: I lied!
+
+D: Look out!
+
+*The Rainbow of Light grabs the three witches and hovers over the volcano. At the same time, the flutter ponies drop all the Smooze into the volcano.*
+
+Ponies: Yay!
+
+D: I thought we didn't need anybody else! Is that another lie?
+
+R: Put us down, Rainbow, please put us down!
+
+H: No! Don't put us down! Don't do that!
+
+*The Rainbow drops the witches, who fall into the Smooze in the volcano.*
+
+R: You! You and your Smooze!
+
+D: Oh, it's all your fault, Mama!
+
+H: This is not my fault! And don't call me Mama!
+
+D: Mama!
+
+R: Mother!
+
+D: Mommy!
+
+R: Ma!
+
+*Back at Paradise Estate . . .*
+
+Sp: Uh, Rosedust, before you leave, do you think maybe you could . . . uh . . . do something about this?
+
+*Spike motions to his smoozed tail.*
+
+Rosedust: Certainly! Brace yourself!
+
+*Rosedust unsmoozes Spike.*
+
+Sp: I always liked my tail! Thanks! Oh, one more thing! Do you think you could do anything about my friends the Grundles?
+
+R: I'll need a little help for that!
+
+*She whistles and three more flutter ponies and Morning Glory fly over. They try to unsmooze the Grundles.*
+
+GK: Grundlemumf, what doing? Grundles good!
+
+Sp: They're trying to take off the Smooze, king!
+
+GK: What Smooze? Grundles never smoozed! Kingdom Smoozed, Grundles not; what you see is what you got!
+
+Sp: Sorry, king!
+
+M: Well, personally, I think Grundles are not only good, Grundles are beautiful!
+
+Bs: Yeah, beautiful! Really neat! Grundles good!
+
+MS: And as thanks for saving Lickety-Split, we want you to have Dream Castle! You can begin your kingdom again!
+
+GK: You mean it?
+
+MS: It's yours! We have Paradise Estate now!
+
+GK: Grundle king touched! Having new kingdom better than vacation!
+
+Ro: Goodbye, Little Ponies! Goodbye!
+
+MG: Bye!
+
+Da: Bye!
+
+Mo: Goodbye!
+
+M: You sure gave us a scare, Rainbow! You keep it, Lickety-Split! The Rainbow of Light belongs here, with the Little Ponies!
+
+BLS: I belong here too!
+
+M: I can't think of a better place to be!
+
+BLS: Yeah! It's the best!
+
+Chorus: My Little Pony, My Little Pony,
+Now comes the time to say good-bye?
+My Little Pony, My Little Pony,
+Could that be a teardrop in your eye?
+
+No need for sorrow; think of tomorrow!
+We'll be together again!
+My Little Pony, My Little Pony,
+Hope you keep smiling till then!
+I hope you keep smiling till then!
+
+</p></center>
+</body>
+<center><h6 id="copyright">Made by Memecreator69 © 2016<br>To use this, simply give credit to this name.<br>The year below is the current year for copyright<br>do not delete the javascript that produces the string.</h6></center>
+<center><h6 id="code">Want the code? Click <a href="http://pastebin.com/Xyv9m4QW" target="_blank">here</a></h6></center>
+<div class="offers">
+<center><h6 id="offer">For anyone who is bored, I'm willing to give credit to you<br>if you go through and add break elements to the script.<br>The code is formatted so all you have to do is add them<br>to the end of each sentence.<h6></center>
+</div>
+
+<style>
+@font-face {
+font-family: pacifico;
+src: url("https://fonts.google.com/specimen/Pacifico?selection.family=Pacifico");
+}
+.title {
+font-family: pacifico;
+font-size: 30px;
+border-style: solid;
+color: DarkRed;
+border-color: Red;
+background-color: lightgrey;
+}
+.script {
+font-family: sans-serif;
+font-size: 15px;
+color: Black;
+border-style: solid;
+border-color: Red;
+background-color: lightgrey;
+margin: 10px 10px 10px 10px;
+}
+body {
+background-image: url("http://data.whicdn.com/images/62733637/large.gif");
+margin: 150px 150px 150px 150px;
+}
+#copyright {
+font-family: sans-serif;
+}
+div.offers {
+font-family: sans-serif, serif;
+}
+#code {
+font-family: sans-serif;
+}
+</style>
+<!-- Do not delete this. This is a current year copyright, doing so may result in actions taken.-->
+<center><script type="text/javascript">
+var d = new Date()
+document.write(d.getFullYear())
+</script></center>
+</html>
+
+
